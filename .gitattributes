@@ -1,0 +1,4 @@
+# PeerSim est une dépendance tierce : on l'exclut des statistiques de langage GitHub
+peersim/** linguist-vendored
+*.pdf binary
+*.jar binary

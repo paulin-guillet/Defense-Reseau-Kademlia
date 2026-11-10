@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 556" width="880" height="556" role="img" aria-label="Schéma : réseau sain, attaque Sybil, puis détection et neutralisation">
+<rect width="880" height="556" rx="10" fill="#ffffff"/>
+<text x="40" y="34" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#0b0b0b">1 · Réseau sain</text>
+<line x1="40" y1="84" x2="840" y2="84" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round"/>
+<circle cx="78" cy="84" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="160" cy="84" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="248" cy="84" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="318" cy="84" r="11" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<circle cx="378" cy="84" r="11" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<circle cx="502" cy="84" r="11" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<circle cx="562" cy="84" r="11" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<circle cx="640" cy="84" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="722" cy="84" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="802" cy="84" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<path d="M440 75 L447 84 L440 93 L433 84 Z" fill="#0b0b0b" stroke="#ffffff" stroke-width="1.5"/>
+<text x="440" y="63" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#52514e">donnée ciblée</text><path d="M302 104 v6 q0 6 6 6 H433.0 q5 0 7 7 q2 -7 7 -7 H572 q6 0 6 -6 v-6" fill="none" stroke="#52514e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><text x="440.0" y="141" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#0b0b0b">Les K plus proches voisins savent où trouver la donnée : la recherche aboutit</text>
+<line x1="24" y1="168" x2="856" y2="168" stroke="#e1e0d9" stroke-width="1"/><text x="40" y="202" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#0b0b0b">2 · Attaque Sybil</text>
+<line x1="40" y1="252" x2="840" y2="252" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round"/>
+<circle cx="78" cy="252" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="160" cy="252" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="248" cy="252" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="318" cy="252" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="378" cy="252" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="502" cy="252" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="562" cy="252" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="640" cy="252" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="722" cy="252" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="802" cy="252" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="410" cy="252" r="8.5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<circle cx="425" cy="252" r="8.5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<circle cx="455" cy="252" r="8.5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<circle cx="470" cy="252" r="8.5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<path d="M440 243 L447 252 L440 261 L433 252 Z" fill="#0b0b0b" stroke="#ffffff" stroke-width="1.5"/>
+<text x="440" y="231" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#52514e">donnée ciblée</text><path d="M398 272 v6 q0 6 6 6 H433.0 q5 0 7 7 q2 -7 7 -7 H476 q6 0 6 -6 v-6" fill="none" stroke="#52514e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><text x="440.0" y="309" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#0b0b0b">Les K plus proches voisins sont tous des Sybils, qui ne répondent pas : la donnée est censurée</text>
+<line x1="24" y1="336" x2="856" y2="336" stroke="#e1e0d9" stroke-width="1"/><text x="40" y="370" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#0b0b0b">3 · Détection puis neutralisation</text>
+<line x1="395" y1="404" x2="395" y2="436" stroke="#52514e" stroke-width="1.5"/><line x1="485" y1="404" x2="485" y2="436" stroke="#52514e" stroke-width="1.5"/><line x1="40" y1="420" x2="840" y2="420" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round"/>
+<circle cx="78" cy="420" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="160" cy="420" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="248" cy="420" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="318" cy="420" r="11" fill="#1baf7a" stroke="#ffffff" stroke-width="2"/>
+<circle cx="378" cy="420" r="11" fill="#1baf7a" stroke="#ffffff" stroke-width="2"/>
+<circle cx="502" cy="420" r="11" fill="#1baf7a" stroke="#ffffff" stroke-width="2"/>
+<circle cx="562" cy="420" r="11" fill="#1baf7a" stroke="#ffffff" stroke-width="2"/>
+<circle cx="640" cy="420" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="722" cy="420" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="802" cy="420" r="11" fill="#c3c2b7" stroke="#ffffff" stroke-width="2"/>
+<circle cx="410" cy="420" r="8.5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<circle cx="425" cy="420" r="8.5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<circle cx="455" cy="420" r="8.5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<circle cx="470" cy="420" r="8.5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<path d="M440 411 L447 420 L440 429 L433 420 Z" fill="#0b0b0b" stroke="#ffffff" stroke-width="1.5"/>
+<text x="440" y="399" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#52514e">seuil d’anomalie</text><path d="M302 440 v6 q0 6 6 6 H433.0 q5 0 7 7 q2 -7 7 -7 H572 q6 0 6 -6 v-6" fill="none" stroke="#52514e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><text x="440.0" y="477" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#0b0b0b">Voisinage élargi à des nœuds fiables au-delà du seuil : la recherche aboutit de nouveau</text>
+<line x1="24" y1="504" x2="856" y2="504" stroke="#e1e0d9" stroke-width="1"/><circle cx="48" cy="530" r="7" fill="#c3c2b7"/><text x="62" y="534.5" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#52514e">nœud honnête</text><circle cx="188" cy="530" r="7" fill="#2a78d6"/><text x="202" y="534.5" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#52514e">détient l’adresse du fournisseur</text><circle cx="426" cy="530" r="7" fill="#eb6834"/><text x="440" y="534.5" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#52514e">nœud Sybil</text><circle cx="546" cy="530" r="7" fill="#1baf7a"/><text x="560" y="534.5" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#52514e">nœud fiable ajouté par la défense</text>
+</svg>
