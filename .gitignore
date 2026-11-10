@@ -1,0 +1,28 @@
+# Fichiers compilés
+build/
+classes/
+*.class
+
+# Sorties de simulation (un exemple versionné est conservé dans results/exemple)
+/*.csv
+/*.png
+/*.log
+/resultats*.txt
+/sybil_summary.txt
+results/**/*.png
+results/**/sybil_summary.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE / système
+.vscode/
+.idea/
+.metadata/
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db

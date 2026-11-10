@@ -664,7 +664,6 @@ public class KademliaProtocol implements Cloneable, EDProtocol {
 				KademliaObserver.closestKNodes.size() + " nodes using detected pool");
 		}
 	}
-}
 
 
 
@@ -747,3 +746,4 @@ public class KademliaProtocol implements Cloneable, EDProtocol {
 			System.err.println("[MITIGATION] Cannot apply mitigation: Baseline not ready or no nodes found");
 		}
 	}
+}
